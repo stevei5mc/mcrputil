@@ -45,6 +45,11 @@ Options:
 3. A <name of your pack folder>.key file and a contents.json should now be in your pack/output folder
 4. Create a zip file with the contents of your pack/output folder, and rename your .key file to the same name as the
    created zip file (MyPack.zip.key)
+examples: 
+|file name|
+|-|
+|MyPack.zip|
+|MyPack.zip.key|
 
 ### Decryption
 
