@@ -38,13 +38,17 @@ mcrputil 是一个命令行工具没有gui
   -h, --help               获得命令的帮助
 ```
 
-#### Step-by-step
+#### 使用方法
 
-1. Make sure your pack is unzipped, and in your pack folder should be a manifest.json
-2. mcrputil encrypt <path to your unzipped pack folder> <path to your unzipped pack/output folder>
-3. A <name of your pack folder>.key file and a contents.json should now be in your pack/output folder
-4. Create a zip file with the contents of your pack/output folder, and rename your .key file to the same name as the
-   created zip file (MyPack.zip.key)
+1. 请确保你的资源包文件中包含有manifest.json
+2. 使用命令 mcrputil encrypt <输入文件夹的路径> <输出文件夹的路径>
+3. 一个＜您的输出文件夹的名称＞.key文件和一个contents.json现在应该在您的包/输出文件夹中
+4. 在输出文件夹中创建一个压缩包，并且重命名与创建的zip文件（MyPack.zip.key）
+示例: 
+|文件名|
+|-|
+|MyPack.zip|
+|MyPack.zip.key|
 
 ### 解密
 
