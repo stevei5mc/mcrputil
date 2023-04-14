@@ -38,6 +38,14 @@ mcrputil 是一个命令行工具没有gui
   -h, --help               获得命令的帮助
 ```
 
+#### Step-by-step
+
+1. Make sure your pack is unzipped, and in your pack folder should be a manifest.json
+2. mcrputil encrypt <path to your unzipped pack folder> <path to your unzipped pack/output folder>
+3. A <name of your pack folder>.key file and a contents.json should now be in your pack/output folder
+4. Create a zip file with the contents of your pack/output folder, and rename your .key file to the same name as the
+   created zip file (MyPack.zip.key)
+
 ### 解密
 
 ```
@@ -51,3 +59,5 @@ mcrputil 是一个命令行工具没有gui
   -k, --key <KEY>  指定解密密钥(给没有跟输入文件夹同名的密钥文件使用)
   -h, --help       获得命令的帮助
 ```
+Please make sure, to not publish any of the resulting files, or only with the consent of the copyright holder, as it is
+a violation, and note that there will be no support for decrypting resource packs.
